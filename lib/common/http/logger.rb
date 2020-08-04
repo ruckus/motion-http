@@ -4,7 +4,7 @@ class Motion
       attr_reader :enabled
 
       def initialize(enabled = true)
-        @enabled = enabled
+        @enabled = false#enabled
       end
 
       def enable!
