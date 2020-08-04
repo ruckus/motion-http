@@ -53,7 +53,7 @@ class Motion
       end
 
       def perform(&callback)
-        Motion::HTTP.logger.log_request(self)
+        #Motion::HTTP.logger.log_request(self)
         Adapter.perform(self, &callback)
       end
     end
